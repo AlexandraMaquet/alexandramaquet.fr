@@ -1,0 +1,384 @@
+
+
+.fontPrincipal {
+  background-color: #242322;
+  padding: 0px;
+}
+
+/* IMAGE AVEC TEXTE DESSUS */
+
+.textImg {
+  background-image: url('../assets/moi6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: -14px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: -1px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.textImg p {
+  color: #242322;
+  width: 100%;
+  height: 100%;
+}
+
+.titre {
+  padding: 15px;
+}
+
+.titre h2 {
+  color: #2071A7;
+}
+
+
+/* NAV BAR */
+
+.navBar {
+  height: 100%;
+  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+}
+
+nav {
+  max-width: 960px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: rgba(0, 35, 122, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+
+/* QUI JE SUIS */
+
+
+.perso {
+  background: url("../assets/arches.png") repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 2px solid #969292;
+  border-top: none;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.perso h2 {
+  position: relative;
+  margin-top: -31px;
+  display: inline-block;
+  background-color: white;
+  padding: 0 10px 2px 10px 
+}
+
+.top-border{
+  position: absolute;
+  height: 2px;
+  width: 24%;
+  background-color: #969292;
+}
+
+.contactright {
+  right: 0;
+}
+
+.contactleft {
+  left: 0;
+}
+
+@media (max-width: 685px) {
+.top-border {	
+  width: 18%;
+	}
+}
+
+.perso p {
+  width: 61%;
+  margin: 20px auto 40px auto;
+  line-height: 30px;
+}
+
+.perso a {
+  outline: 0;
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 440px;
+  font-size: 52px;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+
+@media (max-width: 500px) {
+  .top-border {	
+    display: none;
+  }
+  .perso {
+  border-top: 2px solid #969292;
+  }
+  .perso h1 {
+    margin: 20px 6px;
+  }
+}
+
+/*     COMPETENCES   */
+
+.moi2 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.moi2 i {
+  padding-bottom: 40px;
+}
+
+.moi2 p {
+  font-size: 20px;
+}
+
+.left,
+.right {
+  display: table;
+  table-layout: fixed;
+  margin: 35px auto 15px;
+  width: 95%;
+}
+
+.moi2 .right {
+  border-left: 2px solid #ECECEC;
+  margin-left: -1px;
+}
+/* 
+div.btn-style {
+  position: relative;
+  z-index: 1;
+}
+
+div.btn-style .btn-styleLine {
+  padding: 0;
+  display: inline-block;
+}
+
+.double-line:before {
+  content: "";
+  border-top: 2px solid #969292;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 50%;
+  z-index: -1;
+}
+
+.double-line:after {
+  content: "";
+  border-bottom: 2px solid #969292;
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  width: 40%;
+  z-index: -1;
+}
+
+.btn-lg {
+  padding: 5px 20px;
+  line-height: 1.5;
+}
+
+.btn-outline {
+  margin-top: 15px;
+  border: solid 2px #212121;
+  border-radius: 20px;
+  font-size: 25px;
+  color: #212121;
+  background: #969292;
+  transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #212121;
+  background: #437DC9;
+}
+
+
+ */
+/*   PROJETS   */
+
+.projetBg {
+  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+}
+
+.projet {
+  padding: 40px 0;
+}
+
+.projet h2 {
+  text-align: center;
+  color: #292827;
+}
+
+.right_text {
+  display: inline-block;
+}
+
+.fa-briefcase {
+  padding: 0px;
+}
+
+.right_text h4 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #292827;
+}
+
+.right_text p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #292827;
+}
+
+.link {
+  color: #DBD1D1;
+}
+
+.separetor {
+  border-bottom: 3px solid #292827;
+  margin-bottom: 15px;
+}
+
+.bloc_content_area {
+  overflow: hidden;
+}
+
+.bloc {
+  margin-top: 40px;
+  border: 2px solid #DBD1D1;
+  padding: 30px;
+  border-radius: 4px;
+  transition: .6s;
+}
+
+.bloc:hover {
+  background: #292827;
+  color: #DBD1D1;
+}
+
+.bloc:hover .separetor {
+  border-bottom: 3px solid #DBD1D1;
+}
+
+.bloc:hover .right_text h4 {
+  color: #DBD1D1;
+}
+
+.bloc:hover .right_text p {
+  color: #DBD1D1;
+}
+
+.bloc:hover .link {
+  color: #8C48AA;
+}
+
+/* EXPÉRIENCES */
+
+.exp {
+  background: url("../assets/arches.png") repeat center center fixed;
+}
+
+.exp2 {
+  padding: 40px 0;
+}
+
+.exp2 h2 {
+  text-align: center;
+}
+
+.card {
+  margin: 40px 0 0 0;
+}
+
+.card ol {
+  padding-top: 15px;
+  list-style-type: georgian;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: #3B85CC;
+}
+
+
+/*    CONTACT    */
+
+.moi {
+  background-color: #242322;
+}
+
+.contactBox0  {
+  text-align: center;
+  margin: 10px;
+  height: 146px;
+  color: #8A7E76;
+}
+
+.contactBox1 {
+  border: 2px solid #864CAC;
+  
+}
+
+.contactBox2 {
+  border: 2px solid #6E5EB6;
+}
+
+.contactBox3 {
+  border: 2px solid #5D6ABD;
+}
+
+.contactBox4 {
+  border: 2px solid #3B85CC;
+}
+
+.contactIcon {
+  margin-top: 15px;
+}
+
+.fab {
+  padding: 0 30px;
+}

@@ -1,0 +1,26 @@
+h1,
+h2,
+p {
+  color: #979393;
+}
+
+h1, h2, h4, a {
+  font-family: 'VT323', monospace;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+}
+
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h4 {
+  font-size: 35px;
+}
