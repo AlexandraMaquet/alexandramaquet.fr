@@ -33,6 +33,10 @@
   padding: 15px;
 }
 
+.titre h1 {
+  color: #dbd6d6;
+}
+
 .titre h2 {
   color: #2071A7;
 }
@@ -157,6 +161,7 @@ nav ul li a:hover {
 .moi2 {
   text-align: center;
   padding: 40px 0;
+  color: #dbd6d6;
 }
 
 .moi2 i {
@@ -342,20 +347,26 @@ div.btn-style .btn-styleLine {
 .card a {
   text-decoration: none;
   color: #3B85CC;
+  display: block;
 }
 
 
 /*    CONTACT    */
 
-.moi {
+.contact {
   background-color: #242322;
+}
+
+.contact2 h2 {
+  color: #dbd6d6;
+  text-align: center;
 }
 
 .contactBox0  {
   text-align: center;
   margin: 10px;
   height: 146px;
-  color: #8A7E76;
+  color: #dbd6d6;
 }
 
 .contactBox1 {
@@ -377,6 +388,7 @@ div.btn-style .btn-styleLine {
 
 .contactIcon {
   margin-top: 15px;
+  color: #8A7E76;
 }
 
 .fab {
