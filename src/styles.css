@@ -1,26 +1,21 @@
 h1,
-h2,
 p {
   color: #979393;
 }
 
-h1, h2, h4, a {
-  font-family: 'VT323', monospace;
-}
-
-p{
+* {
   font-family: 'Playfair Display', serif;
 }
 
 
 h1 {
-  font-size: 55px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 35px;
+  font-size: 30px;
 }

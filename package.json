@@ -4,14 +4,12 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "HOME=/ ng build -prod -aot",
-   "start": "node server.js"
-
+    "postinstall": "HOME=/ ng build -prod -aot"
   },
   "private": true,
   "dependencies": {
