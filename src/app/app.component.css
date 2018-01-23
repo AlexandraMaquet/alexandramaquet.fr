@@ -27,8 +27,17 @@
   height: 100%;
 }
 
+.haut {
+  padding-right: 0;
+}
+
 .titre {
   padding: 15px;
+}
+
+.titre h1,
+.titre h2 {
+  text-align: center;
 }
 
 .titre h1 {
@@ -395,4 +404,9 @@ div.btn-style .btn-styleLine {
 
 .fab {
   padding: 0 30px;
+}
+
+.malt {
+  width: 16px;
+  margin-bottom: 3px;
 }
